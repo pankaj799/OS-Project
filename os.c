@@ -9,33 +9,33 @@ struct info
 	int process_name[no_of_process];
 	int process_pid[no_of_process];	
 };
-//structure for the process information
-//process_name
-//process_pid
-//process_exectuion_time
+structure for the process information
+process_name
+process_pid
+process_exectuion_time
 
-//int allocate_map()
-//{
-//	if(available_index==0)
-//	{
-//			return 1;
-//	}
-//	else
-//	{
-//			return -1; 
-//	}
-//}
-//int allocate_pid()
-//{
-//	if(pid_contained)
-//	{
-//			return pid;
-//	}
-//	else
-//	{
-//			return -1;
-//	}
-//}
+int allocate_map()
+{
+	if(available_index==0)
+	{
+			return 1;
+	}
+	else
+	{
+			return -1; 
+	}
+}
+int allocate_pid()
+{
+	if(pid_contained)
+	{
+			return pid;
+	}
+	else
+	{
+			return -1;
+	}
+}
 int main()
 {
 	int no_of_process;
